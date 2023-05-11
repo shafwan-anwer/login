@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="content" fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="space-evenly center">
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png" class="logo"/>
+        </div>
+        
+<div fxLayoutAlign="space-evenly center">
+        <mat-card fxFlex="90%">
+            <mat-card-header class="centered-header mb-2">
+              <mat-card-title><b>Log In</b></mat-card-title>
+            </mat-card-header>
+            <mat-card-actions>
+                <form class="login-form">
+                    <mat-form-field appearance="outline" >
+                        <mat-label>Username</mat-label>
+                      <input matInput placeholder="Username" formControlName="username" required>
+                    </mat-form-field>
+                    
+                    <mat-form-field appearance="outline" >
+                        <mat-label>Password</mat-label>
+                      <input matInput type="password" placeholder="Password" formControlName="password" required>
+                    </mat-form-field>
+                    
+                    <button mat-raised-button color="warn" type="submit" class="mb-1" >Login</button>
+                  </form>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+    </div>
+
+
+
+  <!--  <div class="angular-text"><span class="red-letter">A</span>ngular <span class="red-letter">M</span>aterial <span class="red-letter">L</span>ogin</div>-->
+
+  <div fxLayout="row" fxLayoutAlign="center">
+    <div fxFlex="80%">
+      <div class="meta-card">
+        <p class="meta-card-text">
+            <span class="red-letter">A</span>ngular <span class="red-letter">M</span>aterial <span class="red-letter">L</span>ogin
+        </p>
+      </div>
+    </div>
+  </div>
+  
+
+
+</div>
